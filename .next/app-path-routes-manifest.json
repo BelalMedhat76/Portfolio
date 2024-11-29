@@ -5,13 +5,13 @@
   "/blog/page": "/blog",
   "/contact/page": "/contact",
   "/dashboard/page": "/dashboard",
+  "/portfolio/page": "/portfolio",
   "/api/posts/route": "/api/posts",
   "/blog/[id]/page": "/blog/[id]",
-  "/portfolio/page": "/portfolio",
+  "/portfolio/[category]/page": "/portfolio/[category]",
   "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
-  "/api/posts/[id]/route": "/api/posts/[id]",
   "/api/auth/register/route": "/api/auth/register",
+  "/api/posts/[id]/route": "/api/posts/[id]",
   "/dashboard/(auth)/login/page": "/dashboard/login",
-  "/dashboard/(auth)/register/page": "/dashboard/register",
-  "/portfolio/[category]/page": "/portfolio/[category]"
+  "/dashboard/(auth)/register/page": "/dashboard/register"
 }

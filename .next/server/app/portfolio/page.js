@@ -260,7 +260,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 4112:
+/***/ 82671:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -455,7 +455,7 @@ const Portfolio = ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,604,232,351], () => (__webpack_exec__(4112)));
+var __webpack_exports__ = __webpack_require__.X(0, [859,604,24,351], () => (__webpack_exec__(82671)));
 module.exports = __webpack_exports__;
 
 })();

@@ -131,7 +131,7 @@ module.exports = require("zlib");
 
 /***/ }),
 
-/***/ 4442:
+/***/ 49237:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -227,7 +227,7 @@ const handler = next_auth_default()({
 });
 
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&name=app%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&pagePath=private-next-app-dir%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute.js&appDir=%2Fhome%2Fcountzero%2FNext.js%2Fnextjs-tutorial%2FPortfolio%2Fsrc%2Fapp&appPaths=%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&name=app%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&pagePath=private-next-app-dir%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute.js&appDir=%2Fhome%2Fcountzero%2FNext.js%2Fnextjs-tutorial%2FPortfolio%2Fsrc%2Fapp&appPaths=%2Fapi%2Fauth%2F%5B...nextauth%5D%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=!
 
     
 
@@ -239,7 +239,7 @@ const handler = next_auth_default()({
     userland: route_namespaceObject,
     pathname: "/api/auth/[...nextauth]",
     resolvedPagePath: "/home/countzero/Next.js/nextjs-tutorial/Portfolio/src/app/api/auth/[...nextauth]/route.js",
-    nextConfigOutput: undefined,
+    nextConfigOutput: "export",
   })
 
     // Pull out the exports that we need to expose from the module. This should
@@ -321,7 +321,7 @@ const connect = async ()=>{
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,198,601,160,712,194], () => (__webpack_exec__(4442)));
+var __webpack_exports__ = __webpack_require__.X(0, [859,198,601,160,712,194], () => (__webpack_exec__(49237)));
 module.exports = __webpack_exports__;
 
 })();

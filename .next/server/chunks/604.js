@@ -3556,7 +3556,15 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, prefetchKind
     try {
         let fetchUrl = url;
         if (true) {
-            if (false) {}
+            if (true) {
+                fetchUrl = new URL(url) // clone
+                ;
+                if (fetchUrl.pathname.endsWith("/")) {
+                    fetchUrl.pathname += "index.txt";
+                } else {
+                    fetchUrl.pathname += ".txt";
+                }
+            }
         }
         const res = await fetch(fetchUrl, {
             // Backwards compat for older browsers. `same-origin` is the default in modern browsers.
@@ -3567,7 +3575,11 @@ async function fetchServerResponse(url, flightRouterState, nextUrl, prefetchKind
         const contentType = res.headers.get("content-type") || "";
         let isFlightResponse = contentType === _approuterheaders.RSC_CONTENT_TYPE_HEADER;
         if (true) {
-            if (false) {}
+            if (true) {
+                if (!isFlightResponse) {
+                    isFlightResponse = contentType.startsWith("text/plain");
+                }
+            }
         }
         // If fetch returns something different than flight response handle it like a mpa navigation
         if (!isFlightResponse) {
@@ -5546,7 +5558,7 @@ const _imageconfig = __webpack_require__(35843);
 const _imageconfigcontext = __webpack_require__(50744);
 const _warnonce = __webpack_require__(40618);
 const _imageloader = /*#__PURE__*/ _interop_require_default._(__webpack_require__(99552));
-const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":false};
+const configEnv = {"deviceSizes":[640,750,828,1080,1200,1920,2048,3840],"imageSizes":[16,32,48,64,96,128,256,384],"path":"/_next/image","loader":"default","dangerouslyAllowSVG":false,"unoptimized":true};
 const allImgs = new Map();
 let perfObserver;
 if (true) {

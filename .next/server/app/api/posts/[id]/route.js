@@ -82,7 +82,7 @@ module.exports = require("util");
 
 /***/ }),
 
-/***/ 47919:
+/***/ 78487:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -151,7 +151,7 @@ const DELETE = async (request, { params  })=>{
     }
 };
 
-;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fposts%2F%5Bid%5D%2Froute&name=app%2Fapi%2Fposts%2F%5Bid%5D%2Froute&pagePath=private-next-app-dir%2Fapi%2Fposts%2F%5Bid%5D%2Froute.js&appDir=%2Fhome%2Fcountzero%2FNext.js%2Fnextjs-tutorial%2FPortfolio%2Fsrc%2Fapp&appPaths=%2Fapi%2Fposts%2F%5Bid%5D%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=&preferredRegion=!
+;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-app-loader.js?page=%2Fapi%2Fposts%2F%5Bid%5D%2Froute&name=app%2Fapi%2Fposts%2F%5Bid%5D%2Froute&pagePath=private-next-app-dir%2Fapi%2Fposts%2F%5Bid%5D%2Froute.js&appDir=%2Fhome%2Fcountzero%2FNext.js%2Fnextjs-tutorial%2FPortfolio%2Fsrc%2Fapp&appPaths=%2Fapi%2Fposts%2F%5Bid%5D%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js&basePath=&assetPrefix=&nextConfigOutput=export&preferredRegion=!
 
     
 
@@ -163,7 +163,7 @@ const DELETE = async (request, { params  })=>{
     userland: route_namespaceObject,
     pathname: "/api/posts/[id]",
     resolvedPagePath: "/home/countzero/Next.js/nextjs-tutorial/Portfolio/src/app/api/posts/[id]/route.js",
-    nextConfigOutput: undefined,
+    nextConfigOutput: "export",
   })
 
     // Pull out the exports that we need to expose from the module. This should
@@ -230,7 +230,7 @@ const postSchema = new Schema({
 var __webpack_require__ = require("../../../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,198,601,160,843,585], () => (__webpack_exec__(47919)));
+var __webpack_exports__ = __webpack_require__.X(0, [859,198,601,160,843,585], () => (__webpack_exec__(78487)));
 module.exports = __webpack_exports__;
 
 })();

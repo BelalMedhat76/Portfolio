@@ -260,7 +260,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 81112:
+/***/ 79532:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -377,11 +377,11 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 7629:
+/***/ 55518:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 40408, 23));
-Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 20053, 23))
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 20053, 23));
+Promise.resolve(/* import() eager */).then(__webpack_require__.t.bind(__webpack_require__, 40408, 23))
 
 /***/ }),
 
@@ -500,7 +500,7 @@ const Blog = async ()=>{
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [859,604,232], () => (__webpack_exec__(81112)));
+var __webpack_exports__ = __webpack_require__.X(0, [859,604,24], () => (__webpack_exec__(79532)));
 module.exports = __webpack_exports__;
 
 })();

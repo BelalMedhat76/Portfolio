@@ -1,14 +1,10 @@
 {
-  "homepage":"https://BelalMedhat76.github.io/Portfolio",
-  "name": "nextzero",
+  "name": "nexttutorial",
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "next build",
-  "export": "next export",
-  "predeploy": "npm run build && npm run export",
-  "deploy": "gh-pages -d out",
     "dev": "next dev",
+    "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -22,8 +18,5 @@
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "swr": "^2.1.5"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.2.0"
   }
 }
