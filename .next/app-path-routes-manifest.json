@@ -1,0 +1,17 @@
+{
+  "/favicon.ico/route": "/favicon.ico",
+  "/page": "/",
+  "/about/page": "/about",
+  "/blog/page": "/blog",
+  "/contact/page": "/contact",
+  "/dashboard/page": "/dashboard",
+  "/api/posts/route": "/api/posts",
+  "/blog/[id]/page": "/blog/[id]",
+  "/portfolio/page": "/portfolio",
+  "/api/auth/[...nextauth]/route": "/api/auth/[...nextauth]",
+  "/api/posts/[id]/route": "/api/posts/[id]",
+  "/api/auth/register/route": "/api/auth/register",
+  "/dashboard/(auth)/login/page": "/dashboard/login",
+  "/dashboard/(auth)/register/page": "/dashboard/register",
+  "/portfolio/[category]/page": "/portfolio/[category]"
+}
